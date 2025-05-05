@@ -488,7 +488,7 @@ def run_simulation_neuron_models(freq, neurons, diam, upper_len, tstop, dt, cuto
     
 
                     if f in [10, 100, 1000]:
-                        print(f"Storing data for selected frequency: {f} Hz") # Debug statement to make sure the data for the selected frequencies is stored for the plot
+                        print(f"Storing data for selected frequency: {f} Hz") 
                         # Calculate amplitude in all segments and removing the part before the cell stabilizes 
                         vmem_amplitudes = []
                         for idx in range(cell.totnsegs):
@@ -580,7 +580,7 @@ def run_simulation_neuron_models(freq, neurons, diam, upper_len, tstop, dt, cuto
     
 
                     if f in [10, 100, 1000]:
-                        print(f"Storing data for selected frequency: {f} Hz") # Debug statement to make sure the data for the selected frequencies is stored for the plot
+                        print(f"Storing data for selected frequency: {f} Hz")
                         # Calculate amplitude in all segments and removing the part before the cell stabilizes 
                         vmem_amplitudes = []
                         for idx in range(cell.totnsegs):
@@ -677,7 +677,7 @@ def run_simulation_neuron_models(freq, neurons, diam, upper_len, tstop, dt, cuto
 
 
                         if f in [10, 100, 1000]:
-                            print(f"Storing data for selected frequency: {f} Hz") # Debug statement to make sure the data for the selected frequencies is stored for the plot
+                            print(f"Storing data for selected frequency: {f} Hz") 
                             # Calculate amplitude in all segments and removing the part before the cell stabilizes 
                             vmem_amplitudes = []
                             for idx in range(cell.totnsegs):
@@ -765,7 +765,7 @@ def run_simulation_neuron_models(freq, neurons, diam, upper_len, tstop, dt, cuto
 
 
                 if f in [10, 100, 1000]:
-                    print(f"Storing data for selected frequency: {f} Hz") # Debug statement to make sure the data for the selected frequencies is stored for the plot
+                    print(f"Storing data for selected frequency: {f} Hz") 
                     # Calculate amplitude in all segments and removing the part before the cell stabilizes 
                     vmem_amplitudes = []
                     for idx in range(cell.totnsegs):
