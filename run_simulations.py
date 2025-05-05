@@ -606,10 +606,10 @@ if __name__=='__main__':
     h = neuron.h
 
     all_cells_folder = '/Users/susannedahle/Python/all_cells_folder'
-    bbp_folder = os.path.abspath(all_cells_folder)                              # Make this the bbp_folder
+    bbp_folder = os.path.abspath(all_cells_folder)                       
 
     cell_models_folder = '/Users/susannedahle/Python/brainsignals/cell_models'
-    bbp_mod_folder = join(cell_models_folder, "bbp_mod")                        # Mappen med ulike parametere og mekanismer 
+    bbp_mod_folder = join(cell_models_folder, "bbp_mod")    
 
     # List to store the neuron names
     neurons = []
