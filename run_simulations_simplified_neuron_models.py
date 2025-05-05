@@ -436,7 +436,7 @@ def run_simulation_neuron_models(freq, neurons, diam, upper_len, tstop, dt, cuto
             for l in bottom_len:
                 dend_len = l
 
-                print(f"Running simulation with {cell_name} and dend_len {l} $\mu$m")
+                print(f"Running simulation with {cell_name} and dend_len {l} µm")
 
                 for f in freq:
                     if check_existing_data(amp_data_file_path, f"{cell_name}_dend_len_1000_and_{dend_len}", f):
@@ -520,7 +520,7 @@ def run_simulation_neuron_models(freq, neurons, diam, upper_len, tstop, dt, cuto
                     
                     del cell
 
-                    print(f"{f} Hz complete for dendrite len {l} $\mu$m")
+                    print(f"{f} Hz complete for dendrite len {l} µm")
                 
         
         elif cell_name == "BnS":
@@ -528,7 +528,7 @@ def run_simulation_neuron_models(freq, neurons, diam, upper_len, tstop, dt, cuto
             for d in diam:
                 diameter = d
 
-                print(f"Running simulation with {cell_name} and diameter {d} $\mu$m")
+                print(f"Running simulation with {cell_name} and diameter {d} µm")
 
                 for f in freq:
                     if check_existing_data(amp_data_file_path, f"{cell_name}_diam_{diameter}", f):
@@ -612,7 +612,7 @@ def run_simulation_neuron_models(freq, neurons, diam, upper_len, tstop, dt, cuto
                     
                     del cell
 
-                    print(f"{f} Hz complete for diameter {d} $\mu$m")
+                    print(f"{f} Hz complete for diameter {d} µm")
 
                 
         elif cell_name == "Bn2S":
@@ -626,7 +626,7 @@ def run_simulation_neuron_models(freq, neurons, diam, upper_len, tstop, dt, cuto
                 for l in bottom_len: 
                     bottom_dend = l
     
-                    print(f"Running simulation with dendrite lengths {l_up} and {l} $\mu$m") 
+                    print(f"Running simulation with dendrite lengths {l_up} and {l} µm") 
     
                     for f in freq:
                         if check_existing_data(amp_data_file_path, f"{cell_name}_dendrite_len_{upper_dend}_and_{bottom_dend}", f):
