@@ -288,8 +288,8 @@ def return_sticks_cell(tstop, dt, apic_diam=2, apic_upper_len = 1000, apic_botto
     }
     proc geom_nseg() {
     soma[0] {nseg = 1}
-    dend[0] {nseg = 200}
-    dend[1] {nseg = 200}
+    dend[0] {nseg = 1000}
+    dend[1] {nseg = 1000}
     }
     proc biophys() {
     }
