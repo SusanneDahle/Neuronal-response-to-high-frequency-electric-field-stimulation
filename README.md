@@ -1,6 +1,6 @@
 # Neuronal-response-to-high-frequency-electric-field-stimulation
 
-Simulation code to Neuronal response to high-frequency electric field stimulation, master thesis.
+Code used in "Neuronal response to high-frequency electric field stimulation" master's thesis.
 
 ## Code overview:
 
