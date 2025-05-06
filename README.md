@@ -12,4 +12,7 @@ Code used in "Neuronal response to high-frequency electric field stimulation" ma
 
 **lambda_ac.ipynb** contains code used to calculate frequency dependent length constants, and plot-function for Figure 12.
 
-**Results_plots_idealized_neuron_models.ipynb** loads data from simulation with idealized neuron models, and contains plot functions for Figures 11, C.2 and C.3 in appendix C. 
+**Results_plots_idealized_neuron_models.ipynb** loads data from simulation with idealized neuron models, and contains plot functions for Figures 11, C.2 and C.3. 
+
+**Hay_neuron.ipynb** contain simulation code for active and passive hay neuron, and plot functions for Figures 9, 10, and C.1.
+
