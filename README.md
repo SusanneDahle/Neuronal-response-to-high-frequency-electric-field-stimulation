@@ -8,7 +8,7 @@ Code used in "Neuronal response to high-frequency electric field stimulation" ma
 
 **run_simulations_simplified_neuron_models.py** contains simulation code used for the idealized neuron models stimulated with external electric field. 
 
-Plots_neocortical_neuron_models loads data from simulation with all neocortical neuron models, and contains plot functions for Figures 5, 14-19 and C.4-14.
+**Plots_neocortical_neuron_models.ipynb** loads data from simulation with all neocortical neuron models, and contains plot functions for Figures 5, 14-19 and C.4-14.
 
 **Plots_idealized_neuron_models.ipynb** loads data from simulation with idealized neuron models, and contains plot functions for Figures 8, 12, C.2 and C.3. 
 
