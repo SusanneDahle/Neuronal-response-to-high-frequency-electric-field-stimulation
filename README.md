@@ -32,14 +32,16 @@ Code used in "Neuronal response to high-frequency electric field stimulation" ma
 - Plot functions for Figures 10, 11, and C.1.
 
 ## Figure overview
-- 5: Plots_neocortical_neuron_models.ipynb
-- 8: Plots_idealized_neuron_models.ipynb
-- 9: Plots_neocortical_neuron_models.ipynb
-- 10 and 11: Hay_neuron.ipynb
-- 12: Plots_idealized_neuron_models.ipynb
-- 13: Lambda_ac.ipynb
-- 14 - 19: Plots_neocortical_neuron_models.ipynb
-- 20 and 21: White_noise.ipynb
-- C.1: Hay_neuron.ipynb
-- C.2 and C.3: Plots_idealized_neuron_models.ipynb
-- C.4-14: Plots_neocortical_neuron_models.ipynb
+| Figure number  | Code avalible in       |
+|------------------|----------------------------------------|
+| 5                | Plots_neocortical_neuron_models.ipynb |
+| 8                | Plots_idealized_neuron_models.ipynb   |
+| 9                | Plots_neocortical_neuron_models.ipynb |
+| 10, 11           | Hay_neuron.ipynb                      |
+| 12               | Plots_idealized_neuron_models.ipynb   |
+| 13               | Lambda_ac.ipynb                       |
+| 14–19            | Plots_neocortical_neuron_models.ipynb |
+| 20, 21           | White_noise.ipynb                     |
+| C.1              | Hay_neuron.ipynb                      |
+| C.2, C.3         | Plots_idealized_neuron_models.ipynb   |
+| C.4–C.14         | Plots_neocortical_neuron_models.ipynb |
