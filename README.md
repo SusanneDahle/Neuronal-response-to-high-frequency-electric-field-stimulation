@@ -14,7 +14,7 @@ Code used in "Neuronal response to high-frequency electric field stimulation" ma
 
 **White_noise.ipynb** contains white noise current stimulation and extracellular electric field stimulation to three selected neurons. In addition to plot-function for Figures 20 and 21.
 
-**lambda_ac.ipynb** contains code used to calculate frequency dependent length constants, and plot-function for Figure 13.
+**Lambda_ac.ipynb** contains code used to calculate frequency dependent length constants, and plot-function for Figure 13.
 
 **Hay_neuron.ipynb** contains simulation code for active and passive hay neuron, and plot functions for Figures 10, 11, and C.1.
 
